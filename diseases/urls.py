@@ -19,7 +19,8 @@ from django.urls import path
 from diseases import views
 urlpatterns = [
     path('',views.home,name='home'),
-    path('/heart',views.home,name='home'),
+    path('heart/',views.heart,name='heart'),
+    path('parkinson/',views.parkinson,name='parkinson'),
 
    
     
